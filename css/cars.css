@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* global */
+.section-center {
+    max-width: 1500px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+/* item */
+
+
+.car-image-box {
+    margin-bottom: 3rem;
+}
+
+.car-image-box h1 {
+    text-align: center;
+    color: #45B1D7;
+}
+
+.car-image-box span {
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    margin-block: 1.5rem;
+    background: #1C5664;
+    padding: .5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.car-discription {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+@media (min-width:768px) {
+
+    .car-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6rem;
+    }
+
+    hr {
+        display: none;
+    }
+
+}

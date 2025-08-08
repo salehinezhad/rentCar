@@ -1,0 +1,141 @@
+/* -------------------- Reset -------------------- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------- Base -------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* -------------------- Layout: Price Calculator -------------------- */
+.container-price {
+    max-width: 600px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.rental-calculator {
+    margin: 3rem auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-container h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* -------------------- Inputs & Buttons -------------------- */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-group input[type="checkbox"] {
+    width: auto;
+    margin-left: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1C5664;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #041d23;
+}
+
+/* -------------------- Result Box -------------------- */
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.result h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+#total-cost {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3ea7cd;
+    margin-top: 1rem;
+}
+
+/* -------------------- Rental Info Form -------------------- */
+.container-info {
+    position: fixed;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    max-width: 800px;
+    z-index: 999;
+    display: none;
+}
+
+.rental-calculator-info {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+.rental-calculator-info svg {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #333;
+    transition: transform 0.2s ease;
+}
+
+.rental-calculator-info svg:hover {
+    transform: scale(1.2);
+    color: #e74c3c;
+}
+
+
+.calculator-container-info h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-block: 2rem;
+}
+
+/* js */
+
+.opacity {
+    opacity: .5;
+}
