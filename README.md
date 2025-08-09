@@ -22,17 +22,24 @@ Here are some screenshots of the project:
 
 ![Project Screenshot](screenshots/1.png)  
 
+
 ![Project Screenshot](screenshots/2.png)  
+
 
 ![Project Screenshot](screenshots/3.png)  
 
+
 ![Project Screenshot](screenshots/4.png)  
+
 
 ![Project Screenshot](screenshots/5.png)  
 
+
 ![Project Screenshot](screenshots/6.png)  
 
+
 ![Project Screenshot](screenshots/7.png)  
+
 
 ![Project Screenshot](screenshots/8.png)  
 
